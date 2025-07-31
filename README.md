@@ -36,7 +36,9 @@ HUDL_USERNAME=...
 HUDL_PASSWORD=...
 ```
 
-For security purposes the values of **HUDL_USERNAME** and **HUDL_PASSWORD** are not commited to the repostory. In order to get the username and password they can be found on the email.
+Since it is a security risk I have not committed the values of **HUDL_USERNAME** and **HUDL_PASSWORD** to the repostory. 
+
+**In order to get the username and password they can be found on the email I sent to Ryan Magee**.
 
 Once you have created a **.env.prod** file at the root of this repository with the environment variables and values you can now run the following command to run the tests:
 
