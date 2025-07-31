@@ -21,7 +21,9 @@ npm i
 
 ### Run tests
 
-Before running the tests, we need to setup credentials and some environment variables. In order to do this, we must first create a **.env.prod** file at the root of this repo with the correct environment variables, otherwise the tests will fail
+Before running the tests, we need to load a config file containing environment variables, username and password.
+
+In order to do this, we must first create a **.env.prod** file at the root of this repo with the correct environment variables, otherwise the tests will fail
 
 1. Create a **.env.prod** file at the root of this repository
 
