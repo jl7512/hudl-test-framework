@@ -1,0 +1,15 @@
+{
+  "name": "hudl-test-framework",
+  "version": "1.0.0",
+  "scripts": {
+    "e2e:prod": "cross-env ENV='prod' npx playwright test --headed"
+  },
+  "author": "Jimmy L",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.1"
+  }
+}

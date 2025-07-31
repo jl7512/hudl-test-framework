@@ -1,0 +1,34 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Ignore .env files
+*.env*
+
+# Ignore Playwright artifacts
+*.zip
+*.tar.gz
+*.tgz
+*.gz
+*.log
+*.out
+*.tmp
+*.cache
+
+# Ignore Playwright screenshots and videos
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.avi
+*.mov
+*.webm
+
+# Ignore Playwright trace files
+*.trace.json
+*.trace.zip
